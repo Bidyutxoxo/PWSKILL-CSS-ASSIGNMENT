@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Screen Background Image</title>
+    <style>
+        body {
+            background: url('background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1, p {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome to the Page</h1>
+        <p>This page has a background image that covers the entire screen.</p>
+    </div>
+</body>
+</html>
