@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover to Reveal Image</title>
+    <style>
+        .hidden-image {
+            display: none;
+        }
+        h2:hover + .hidden-image {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h2>Hover Below to Reveal a Surprise</h2>
+    <img src="surprise.jpg" alt="Surprise" class="hidden-image">
+</body>
+</html>
