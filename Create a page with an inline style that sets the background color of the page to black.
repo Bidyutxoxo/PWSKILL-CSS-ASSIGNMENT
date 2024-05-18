@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: black;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with Black Background</title>
+</head>
+<body>
+    <h1>Page with Black Background</h1>
+    <p>This page has a black background set using an inline style.</p>
+</body>
+</html>
