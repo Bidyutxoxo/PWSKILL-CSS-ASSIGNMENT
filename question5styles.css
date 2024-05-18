@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-image {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border: 5px solid transparent;
+    border-radius: 0;
+    transition: border 0.3s, border-radius 0.3s;
+    object-fit: cover;
+}
+
+.hover-image:hover {
+    border-color: #6495ED; /* Cornflower Blue */
+    border-radius: 50%;
+}
+
